@@ -1,1 +1,57 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  width: 15%;
+  height: 100%;
+  background-color: rgb(63, 77, 103);
+  top: 0;
+  left: 0;
+  float: left;
+  position: fixed;
+  color: white;
+}
+.sidebar ul {
+  margin-left: -32px;
+}
+.sidebar ul .active {
+  color: white;
+  background-color: rgb(54, 67, 89);
+  border-left: 3px solid rgb(167, 167, 238);
+}
+.sidebar ul li {
+  display: block;
+  color: rgb(183, 186, 204);
+  width: 100%;
+  padding: 15px;
+}
+.sidebar ul .hover_class {
+  display: block;
+  color: rgb(183, 186, 204);
+  width: 100%;
+  padding: 15px;
+}
+.sidebar ul .hover_class:hover {
+  background-color: rgb(54, 67, 89);
+  transition: 0.3s;
+}
+
+.dropdown .dropdown_btn {
+  background: transparent;
+  color: rgb(183, 186, 204);
+}
+
+.navbar {
+  width: 85%;
+  float: right;
+}
+.navbar ul {
+  display: inline-block;
+}
+.navbar ul li {
+  display: inline-block;
+  color: rgb(175, 176, 181);
+}/*# sourceMappingURL=style.css.map */
